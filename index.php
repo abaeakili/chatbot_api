@@ -5,6 +5,7 @@
 	if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
 	} elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+		var_dump($_REQUEST);
 		if($_POST["url"]=="parse") {
 			try{
 			$data = array("text" => $_POST["text"]);

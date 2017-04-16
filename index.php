@@ -1,11 +1,9 @@
 <?php
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
+	
 
-	if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+	if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
-	} elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
-		var_dump($_REQUEST);
+	} elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		if($_POST["url"]=="parse") {
 			try{
 			$data = array("text" => $_POST["text"]);

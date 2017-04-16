@@ -1,5 +1,11 @@
 # HealthCareBot -- Your personal health assistant
 
+# Expected Chat behaviour
+https://github.com/piyush-singhal/chatbot_api/blob/master/Capture1.PNG
+
+# Problem we faced in MyPolly
+* No support for Header parameter in api request
+
 Chat API
 
 #https://api.infermedica.com/v2/parse

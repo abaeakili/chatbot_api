@@ -6,7 +6,7 @@ Chat API
 
 # Input
 {
-    "text": "i am surfing from headache today "
+    "text": "i am suffering from headache today "
 }
 
 # Output

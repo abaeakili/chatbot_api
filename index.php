@@ -58,7 +58,8 @@
 			        E_USER_ERROR);
 
 			}
-			echo $result;
+			header('Content-Type: application/json');
+			echo json_encode($result);
 		}
 
 	}

@@ -29,6 +29,7 @@
 			        E_USER_ERROR);
 
 			}
+			$result = json_decode($result);
 			header('Content-Type: application/json');
 			echo json_encode($result);
 			echo $result;
